@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    /*display: flex;*/
+    /*justify-content: center;
+    align-items: center;*/
+    height: 50vh; /* Tela inteira */
+    font-size: 13px;
+}
+
+h1 {
+    color: #555;
+    text-align: center;
+    margin-top: 15%;
+}
+
+/* Estilo da div que contém o formulário */
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 300px;
+}
+
+/* Estilo dos inputs */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Tamanho do input menos o padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover no botão */
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Link de cadastro */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Hover no link */
+a:hover {
+    text-decoration: underline;
+}

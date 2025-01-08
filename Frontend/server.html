@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="server.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas</h1>
+        <form id="taskForm">
+            <label for="title">Título:</label>
+            <input type="text" id="title" placeholder="Título da tarefa" required>
+
+            <label for="description">Descrição:</label>
+            <textarea id="description" placeholder="Descrição da tarefa" rows="3"></textarea>
+
+            <label for="priority">Prioridade:</label>
+            <select id="priority">
+                <option value="Baixa">Baixa</option>
+                <option value="Média">Média</option>
+                <option value="Alta">Alta</option>
+            </select>
+
+            <label for="status">Status:</label>
+            <select id="status">
+                <option value="Pendente">Pendente</option>
+                <option value="Em Progresso">Em Progresso</option>
+                <option value="Concluída">Concluída</option>
+            </select>
+
+            <label for="deadline">Prazo:</label>
+            <input type="date" id="deadline" required>
+
+            <label for="responsible">Responsável:</label>
+            <input type="text" id="responsible" placeholder="Nome do responsável" required>
+
+            <label for="hours">Horas Gastas:</label>
+            <input type="number" id="hours" placeholder="Horas" required>
+
+            <button type="button" onclick="addTask()">Adicionar Tarefa</button>
+        </form>
+
+        <div class="task-list" id="taskList">
+            <h2>Tarefas</h2>
+        </div>
+    </div>
+<script src="server.js"></script>
+</body>
+</html>

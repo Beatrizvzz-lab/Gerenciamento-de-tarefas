@@ -1,0 +1,71 @@
+body {
+  margin-top: 160px;
+  background-color: #f0f0f0;
+  text-align:center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cadastro{
+    text-align: justify;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column; /* Mantém os elementos empilhados */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center;
+
+}
+
+/* Grupos de label e input */
+.form-group {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    margin-bottom: 15px; /* Espaço entre os grupos */
+    gap: 10px; /* Espaço entre o label e o input */
+}
+
+/* Labels */
+label {
+    width: 150px; /* Define uma largura fixa para alinhar os labels */
+    text-align: right; /* Alinha os textos à direita */
+    margin-left: 10%;
+}
+#numero {
+    width: 10%; /* Define a largura do input Número */
+    margin-left: auto;
+}
+
+#bairro {
+    width: 20%; /* Define a largura do input Bairro */
+    margin-left: auto;
+}
+
+#cep {
+    width: 20%; /* Define a largura do input CEP */
+    margin-left: auto;
+}
+
+input{
+    display:inline-block;
+    text-align: center;
+    margin: 5px 0;
+    width: 30%;
+    padding: 8px; /* Espaço interno no input */
+    font-size: 10px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+    border: 1px solid #ccc; /* Borda dos inputs */
+    border-radius: 4px; /* Bordas arredondadas */
+
+}
